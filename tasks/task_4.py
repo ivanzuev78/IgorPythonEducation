@@ -7,3 +7,10 @@
 """
 
 list_1 = ['Мама', 'мыла', 'рыбууу', 'неизвестно', 'зачем']
+
+list_len = []
+
+for i in list_1:
+    list_len.append(len(i))
+
+print(list_len)
